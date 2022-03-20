@@ -1,6 +1,7 @@
 class Forecast
-  attr_reader :date, :conditions, :eight_five_and_up, :seven_to_eight_five, :five_to_seven
+  attr_reader :id, :date, :conditions, :eight_five_and_up, :seven_to_eight_five, :five_to_seven
   def initialize(data)
+    @id = nil
     @date = data[:advisories][0][:advisory][:date_issued]
     @conditions = data[:advisories][0][:advisory][:current_conditions]
     @eight_five_and_up = danger_rose_top(data)
