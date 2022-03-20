@@ -10,7 +10,7 @@
 
 ## Background and Description
 
-Utah Avalanche API is a backend application to expose an API endpoint.The data exposed regards avalanche forecasts for a certain mountain ranges in Utah. A FE client could provide the mountain range to the API and get conditions for the day as well as get specific conditions according to slope and elevation. The end goal would be to set up SMS service to proivide all users or pass holders in the database with avalanche data every morning via email or SMS.
+Utah Avalanche API is a backend application to expose an API endpoint, the data exposed regards avalanche forecasts for certain mountain ranges in Utah. A FE client could provide the mountain range to the API and get conditions for the day as well as get specific conditions according to slope and elevation. The end goal would be to set up SMS service to proivide all users or pass holders in the database with avalanche data every morning via email or SMS.
 
 
 ## Requirements and Setup (for Mac):
