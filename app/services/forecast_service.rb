@@ -9,8 +9,4 @@ class ForecastService
     response = conn.get
     JSON.parse(response.body, symbolize_names: true)
   end
-
-  def self.find_forecast
-
-  end
 end
