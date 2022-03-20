@@ -8,8 +8,8 @@ class Forecast
     @seven_to_eight_five = danger_rose_mid(data)
     @five_to_seven = danger_rose_bottom(data)
   end
-
-  def danger_rose_top(data)
+  # danger rose comes as string of numbers that represent slope compass direction and danger status
+  def danger_rose_top(data) #grabs first 8 numbers for elevation above 8,500 feet.
     top_array = data[:advisories][0][:advisory][:overall_danger_rose].slice(0..15).split(',')
     int_array = top_array.map { |char| char.to_i }
     int_array.each_with_index.map do |char, i|
@@ -17,7 +17,7 @@ class Forecast
     end
   end
 
-  def danger_rose_mid(data)
+  def danger_rose_mid(data)#grabs second 8 numbers for elevatiopn between 7000 and 8500 feet
     top_array = data[:advisories][0][:advisory][:overall_danger_rose].slice(16..31).split(',')
     int_array = top_array.map { |char| char.to_i }
     int_array.each_with_index.map do |char, i|
@@ -25,7 +25,7 @@ class Forecast
     end
   end
 
-  def danger_rose_bottom(data)
+  def danger_rose_bottom(data)#grabs last 8 numbers for elevation between 5000 and 7000 feet
     top_array = data[:advisories][0][:advisory][:overall_danger_rose].slice(32..).split(',')
     int_array = top_array.map { |char| char.to_i }
     int_array.each_with_index.map do |char, i|
@@ -33,7 +33,7 @@ class Forecast
     end
   end
 
-  def direction(char, i)
+  def direction(char, i) # conditional to assign slope to mountain condition 
     conditions = nil
     slope = nil
     if i == 0
