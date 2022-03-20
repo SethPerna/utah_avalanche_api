@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://utahavalanchecenter.org/forecast/salt-lake/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - gseth26@gmail.com
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 20 Mar 2022 18:25:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Drupal-Cache:
+      - MISS
+      Expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"advisories":[{"advisory":{"date_issued":"Sunday, March 20, 2022 -
+        5:47am","date_issued_timestamp":"1647776879","special_announcement":"&nbsp;A
+        new piece called \" A Reckoning \"&nbsp;talks about the recent string of human-triggered
+        avalanches. If you missed the essay Deus Ex Machina,&nbsp;published just at
+        the onset of close calls and&nbsp;accidents, you''ll find it HERE&gt;\r\r\r\rPlease
+        help support avalanche forecasting throughout Utah. Donate to the Spring Campaign
+        to help raise the funds to support the forecasting you rely on.\r\r","general_announcements":"\rWho''s
+        up for some free avalanche training? Get a refresher, become better prepared
+        for an upcoming avalanche class, or just boost your skills. Go to&nbsp;https://learn.kbyg.org/&nbsp;and
+        scroll down to Step 2 for a series of interactive online avalanche courses
+        produced by the UAC.\r\r&nbsp;\r\r\rCLICK HERE FOR MORE GENERAL INFO AND FAQ\r\r\rThis
+        information does not apply to developed ski areas or highways where avalanche
+        control is normally done. This forecast is from the U.S.D.A. Forest Service,
+        which is solely responsible for its content. This forecast describes general
+        avalanche conditions and local variations always occur.\r\r&nbsp;\r\rObservations
+        and Avalanches\r\rBackcountry Emergency Procedures\r\rInstagram\r\rFacebook\r\rGet
+        Forecast Email\r\rPrevious Forecasts\r\rContact via email\r\rSubmit Observation\r","current_conditions":"spring''s
+        cherry blossoms\r\rwelcome snow, a splitting storm\r\rwinter has life yet\r\r\r\rHappy
+        1st Day of Spring.&nbsp;&nbsp;\r\rSkies are overcast.&nbsp; Winds are 15-20mph
+        from the south.&nbsp; Temperatures remain mild ahead of the cold front with
+        temps in the upper 20s to low 30s.&nbsp;\r\rThe front should arrive mid-morning
+        with a good burst of snowfall.&nbsp; We may see 3-6\" by evening.&nbsp; There
+        is an outside chance of lake effect by dinnertime.&nbsp;\r\rTemperatures will
+        rapidly fall to the low teens post-frontal; winds will veer northwesterly,
+        be gusty during frontal passage, but then blow 15-20mph along the higher ridgelines.\r\rWe
+        stay under a cool northwest flow for early week with a ridge building for
+        mid-late week.&nbsp; Mountain temperatures rise again to well above freezing
+        by Thursday.&nbsp;&nbsp;\r\rSomething of interest for next weekend; we''ll
+        see.\r\r\r\rTravel is easy with excellent coverage, particularly in the upper
+        elevations. Base depths are 80-105\" in the upper Cottonwoods and 50-80\"
+        along the Park City ridgeline. The mid-week storm of 2-4\" added a little
+        window dressing to the landscape, but wind, sun, and thermal crusts abound.
+        Still, one can find good riding conditions in the sheltered terrain.\r\r\r","recent_activity":"First
+        off - thanks to all of you for your reports and observations: they help paint
+        the most accurate picture of what''s going on in the backcountry.\r\r\r\r\r\tA
+        skier remotely triggered an 18\" deep and 30'' wide pocket on a steep northeast
+        facing slope at 8200'' in the Eeny-Meenies of Mill B South.&nbsp;\r\tA snowboarder
+        triggered, and was caught and briefly carried in an 18\" deep and 80'' wide
+        avalanche in Cardiff Fork of BCC.&nbsp; Northeast facing at 9000''.&nbsp;
+        Exact location is unknown at this time, but it looked to be a small opening
+        in an otherwise forested area.&nbsp;&nbsp;\r\tWe did get a second&nbsp;hand
+        report of a \"recent\"&nbsp;skier triggered avalanche on the northern flank
+        of Mt Aire.&nbsp; Estimated elevation is 7800''.\r\r\rSaturday''s three avalanches
+        continue to fit the pattern:&nbsp; tricky and \"unmanageable\" soft slab avalanches
+        failing on the Jan/Feb drought PWL&nbsp;layer of weak sugary facets...and
+        more prominently noted in north to northeast facing mid-elevation protected
+        terrain.&nbsp;&nbsp;\r\r\r\rcrown of avalanche in Mill B South 18\" deep 30''
+        wide.&nbsp; small, but big enough&nbsp;to carry you into trees below\r\r&nbsp;\r\r\r\r\r\r&nbsp;\r\r\r\r\rcrown
+        of avalanche in Cardiff Fork, 18\" deep and 80'' wide\r\r\"Was caught, slid
+        20 feet but managed to get a hold of a branch and hang on. The slide ran for
+        approximately 200 ft through the timber.\r\rTakeaways: Any momentary lapse
+        in judgement is unacceptable. Just because I enjoyed skiing similar aspect
+        and slope angle 1500 vert higher doesn''t mean I should lower my guard.&nbsp;Lastly,
+        just because I made a small ski cut where I thought it would go and didn''t
+        get any signs of instability, doesn''t mean it won''t slide two turns down.\"\r\r\r&nbsp;\r\r\r\rFind
+        all the observations HERE.\r\r&nbsp;Greg Gagne''s Week in Review is published
+        and can be found&nbsp;HERE.\r\r\r\r&nbsp;\r\r&nbsp;&nbsp;&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r","avalanche_problem_1":"Persistent
+        Weak Layer","avalanche_problem_1_description":"Human triggered avalanches
+        1-3'' deep remain possible on steep west to north to east facing slopes of
+        all elevations.&nbsp; You will probably trigger them from a distance.&nbsp;\r\rThe
+        sweet spot for triggering these seems more likely in the wind and sun protected
+        north to northeast facing terrain of the mid-elevations.&nbsp; Many of the
+        people triggering these slides have remarked that \"the terrain looked so
+        benign\", or \"it was just a small opening in the trees\".&nbsp; Understandable
+        yet slope angle is slope angle, even if it''s a benign looking slope.&nbsp;
+        And trees are not necessarily anchoring the slope per se; they are more likely
+        to cause trauma.\r\rPeople have triggered these&nbsp;soft slab avalanches
+        failing on our Jan/Feb drought layer facets nearly every day for&nbsp;a month.&nbsp;
+        The TAKE-HOME&nbsp;is that a great deal of uncertainty* exists with this tricky
+        and dangerous snowpack.&nbsp; Many professionals and many very experienced
+        backcountry skiers and riders have been surprised or had close calls in the
+        past week and a half.&nbsp; \r\rLet that sit in for a moment.&nbsp;&nbsp;\r\rWe
+        estimate the danger by looking at the likelihood, size, spatial distribution,
+        and character, if you will, of the avalanche.&nbsp; For all intents and purposes,
+        the size and locations haven''t changed.&nbsp; What has changed is that these
+        avalanches are more stubborn and less sensitive and - lacking immediate signs
+        of instability (ie-cracking/collapsing) - will want to lure you out onto the
+        steep terrain.&nbsp; Don''t fall for it.&nbsp; &nbsp;\r\r\r\r*Uncertainty.&nbsp;
+        High uncertainty requires a&nbsp;wide margin&nbsp;for error.&nbsp;&nbsp;\r\r\r\tKnow
+        that you don''t know.&nbsp; You won''t know exactly when and where you will
+        trigger the avalanche, but you will probably trigger it from a distance.&nbsp;
+        These types of avalanches are Unmanageable.\r\tIf you choose to ride suspect
+        terrain, choose terrain that won''t kill you if the snowpack disagrees with
+        your assessment of it.&nbsp; Bashed through the trees, over a cliff and buried
+        deeply in a gulley?&nbsp; No good.\r\tBe cognizant of runout zones.&nbsp;
+        How far will the avalanche run if you trigger it from below?&nbsp; Do you
+        know how to estimate runouts?\r\r\r\r&nbsp;\r\rTRAVEL ADVICE - CHOOSE LOWER
+        ANGLE SLOPES WITH NO OVERHEAD HAZARD.\r\r\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r&nbsp;\r\r\r&nbsp;\r\r&nbsp;\r\r","avalanche_problem_2":"Wind
+        Drifted Snow","avalanche_problem_2_description":"Watch for snow transport
+        and fresh, potentially sensitive drifts in steep terrain.&nbsp; Wind drifts
+        are more likely to be found on steep northerly to easterly&nbsp;facing aspects
+        in the upper elevations.&nbsp;&nbsp;\r","bottom_line":"\rA ''scary'' MODERATE
+        danger exists on steep west to north to east facing&nbsp;aspects of all elevations.&nbsp;
+        You can trigger 1-3'' deep avalanches and you can trigger from a distance
+        or from below.&nbsp; The danger is more pronounced on north to northeast facing
+        slopes in the mid-elevation bands.&nbsp; Collapsing and cracking may not be
+        noted.&nbsp; Know that wind drifts exist to the lee of terrain features in
+        the upper elevations.&nbsp;&nbsp;\r\r\r\rI don''t expect today''s new snow
+        to pose much of a danger; but you need to pay attention to rapidly changing
+        conditions.&nbsp; IF we get more snow and wind than expected AND/OR we see
+        heavy snowfall, shallow new snow avalanches can be expected in the steeper
+        terrain of all aspects.&nbsp;&nbsp;\r\r\r","danger_rose_1":"16,16,16,14,14,14,16,16,16,16,16,14,14,14,16,16,16,16,16,14,14,14,16,16","danger_rose_2":"16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,14,14,14,14,14,14,14,14","danger_rose_3":"14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14","overall_danger_rose":"4,4,4,4,4,4,4,4,4,4,4,2,2,2,4,4,4,4,4,2,2,2,4,4","overall_danger_rose_image":"/sites/default/files/forecast/202203/20220320-065758-6.png","overall_danger_rating":"Moderate","region":"Salt
+        Lake"}}]}'
+  recorded_at: Sun, 20 Mar 2022 18:25:03 GMT
+recorded_with: VCR 6.1.0

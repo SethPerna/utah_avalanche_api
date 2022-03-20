@@ -1,11 +1,7 @@
 require 'rails_helper'
 RSpec.describe 'Forecast Service' do
-  it 'returns a faraday response', :vcr do
-    connection = ForecastService.connection("salt-lake")
-    expect(connection).to be_a(Faraday::Connection)
-  end
 
-  it 'returns a cocktail at random', :vcr do
+  it 'returns faraday connection, with forecast data', :vcr do
     forecast = ForecastService.connection("salt-lake")
     expect(forecast).to have_key(:advisories)
     expect(forecast[:advisories][0]).to have_key(:advisory)
