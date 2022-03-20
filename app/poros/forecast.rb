@@ -8,7 +8,7 @@ class Forecast
     @seven_to_eight_five = danger_rose_mid(data)
     @five_to_seven = danger_rose_bottom(data)
   end
-  
+
   def danger_rose_top(data)
     top_array = data[:advisories][0][:advisory][:overall_danger_rose].slice(0..15).split(',')
     int_array = top_array.map { |char| char.to_i }
