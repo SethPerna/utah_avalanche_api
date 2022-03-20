@@ -53,7 +53,7 @@ Once cloned, you'll have a new local copy in the directory you ran the clone com
 In terminal, use `$cd` to navigate to the backend Application project directory.
 
 ```shell
-$ cd sweater-weather
+$ cd utah_avalanche_api
 ```
 
 3. Install required Gems utilizing Bundler: <br>
