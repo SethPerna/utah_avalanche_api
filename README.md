@@ -171,33 +171,14 @@ At this point you should be taken to a page with an example JSON response for a 
 ## Endpoints provided 
 
 
-- get '/forecast', to: 'forecast#index'
+get '/api/v1/avalanche' 
 
-![Screen Shot 2022-03-08 at 11 36 33 AM](https://user-images.githubusercontent.com/90224504/157283024-4c11adcc-e758-45e5-a58e-3f9b1ce09adc.png)
-      
-- get '/backgrounds', to: 'backgrounds#index'
+![Screen Shot 2022-03-20 at 2 13 19 PM](https://user-images.githubusercontent.com/90224504/159176479-bfa77c29-562a-4e51-9497-46c4763ee79f.png)
 
-![Screen Shot 2022-03-08 at 11 38 26 AM](https://user-images.githubusercontent.com/90224504/157283428-a14d3f12-df6b-4d0a-b2d0-2784f429744c.png)
+![Screen Shot 2022-03-20 at 2 13 39 PM](https://user-images.githubusercontent.com/90224504/159176491-d8f19ea7-0f4e-465a-9b15-6567f210c42b.png)
 
-- post '/users', to: 'users#create'
+![Screen Shot 2022-03-20 at 2 13 57 PM](https://user-images.githubusercontent.com/90224504/159176504-309ae07f-a682-425b-bdc2-6860e540e0c1.png)
 
-![Screen Shot 2022-03-07 at 5 14 21 PM](https://user-images.githubusercontent.com/90224504/157126823-4126fa96-5675-4500-b87f-0d9a0a57d3be.png)
-
-- post '/sessions', to: 'sessions#create'
-
-![Screen Shot 2022-03-07 at 5 13 20 PM](https://user-images.githubusercontent.com/90224504/157126673-ccd083a9-2b53-4d0a-bdc1-16e3c12ecc74.png)
-
-- post '/road_trip', to: 'road_trip#create'
-
-![Screen Shot 2022-03-08 at 11 41 07 AM](https://user-images.githubusercontent.com/90224504/157283914-42baba23-d7a4-4d67-be3c-cf6f2605832a.png)
-
-- Response for invalid origin/destination i.e. Ocean or invalid location
-
-![Screen Shot 2022-03-08 at 11 42 23 AM](https://user-images.githubusercontent.com/90224504/157284139-9d97f284-1237-4565-8b44-2e7b6db17865.png)
-
-- Response for invalid API KEY 
-
-![Screen Shot 2022-03-08 at 11 43 06 AM](https://user-images.githubusercontent.com/90224504/157284277-d08d2a78-c09e-4da7-a752-fbaf89ba9cc7.png)
 
 
 ## **Contributors** ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
